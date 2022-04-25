@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&display=swap');
+
+.navbar__container {
+  background-color: #f3e9e9;
+  height: 80px;
+}
+.navbar__header {
+  font-family: 'Italianno', cursive;
+  font-size: 40px;
+  font-weight: 300;
+  width: fit-content;
+  margin: 0%;
+}
+.navbar__header:nth-child(2) {
+  font-family: 'Cormorant SC', serif;
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.navbar__logo {
+  margin-left: 20px;
+}
+.navbar__menu-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  font-family: 'Cormorant SC', serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.navbar__menuitem {
+  margin-top: -60px;
+}
+.navbar__menuitem:nth-child(1) {
+  margin-left: 15%;
+}
